@@ -1,0 +1,441 @@
+@font-face {
+    font-family: 'deirma';
+    src: url('deirma/Deirma.ttf');
+}
+
+.content-wrapper {
+    background-color: #500602;
+    contain: layout;
+}
+
+.content {
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+
+/* hero */
+#hero .isi {
+    margin-top: -650px;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    #hero .isi {
+        margin-top: -550px;
+        color: #fff;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #hero .isi {
+        margin-top: -410px;
+        color: #fff;
+    }
+}
+
+#hero .waktu {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #fff;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#hero .title {
+    font-family: 'Deirma';
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+#hero .isi .keterangan {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#hero .btn {
+    padding: 14px 40px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* akhir hero */
+
+
+/* cards */
+#card{
+    background-color: #690702;
+    margin-left: 20px;
+    color: #fff;
+    margin-right: 20px;
+    border-radius: 40px;
+    margin-top: -100px;
+    padding-bottom: 30px;
+}
+
+/* akhir cards */
+
+
+/* waktu */
+#waktu {
+    padding: 16px;
+}
+
+#waktu .card {
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 40px;
+    border: none;
+    padding: 8px;
+}
+
+#waktu .angka {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#waktu .huruf {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+}
+
+#waktu .title {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    text-align: center
+}
+
+#waktu .keterangan {
+    font-family: 'Open Sans';
+    margin: 40px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#waktu .detailwaktu {
+    margin-bottom: 30px;
+}
+
+/* akhir waktu */
+
+
+
+/* couple */
+#couple {
+    padding: 16px;
+}
+
+#couple .title {
+    font-family: 'Deirma';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* pria */
+#couple img {
+    background-size: cover;
+    width: 224px;
+    height: 220px;
+    border-radius: 120px 120px 0px 0px;
+}
+
+#couple .card {
+    color: #000;
+    padding: 25px 30px;
+    margin-top: -10px;
+}
+
+#couple .card img {
+    width: 184px;
+    height: 12px;
+    align-self: center;
+}
+
+#couple .card .nama {
+    font-family: 'Deirma';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.02em;
+}
+
+#couple .card .keterangan {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.pria {
+    margin-bottom: 40px;
+}
+
+.wanita {
+    margin-bottom: 60px;
+}
+
+/* akhir couple */
+
+
+
+
+/* event */
+#event {
+    color: #000;
+    padding: 16px;
+}
+
+#event .card {
+    padding: 40px 30px;
+}
+
+#event .title {
+    font-family: 'Deirma';
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 62px;
+    margin-bottom: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#event .keterangan {
+    font-family: Times New Roman;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #434343;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#event .tempat {
+    margin-top: 20px;
+}
+
+#event .tempat {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#event .isi {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: -14px;
+}
+
+#event .waktu {
+    font-family: 'Raleway';
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* akhir event */
+
+
+
+/* our */
+#our {
+    margin-top: 40px;
+}
+
+#our .title {
+    font-family: 'Deirma';
+    margin-top: 16px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* akhir our */
+
+
+/* present */
+#present .title {
+    font-family: 'Deirma';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.02em;
+    margin-top: 60px;
+}
+
+#present .subtitle {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+#present .keterangan {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* akhir present */
+
+
+
+
+/* pesan */
+#pesan {
+    margin-top: 60px;
+}
+
+#pesan .title {
+    font-family: 'Deirma';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#pesan .subtitle {
+    font-family: 'Deirma';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.16em;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+
+
+#pesan  hr {
+    color: #fff;
+}
+
+#pesan .peringatan {
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 270px;
+    font-size: 11px;
+    color: #FF0000;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+#pesan textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    height: 135px;
+    margin-top: 0;
+    padding: 9px;
+}
+
+#pesan .btn {
+    background-color: #fff;
+    color: #402C5D;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 14px;
+    line-height: 19.07px;
+    margin-bottom: 20px;
+}
+
+#pesan .nama {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+#pesan .nama .btn {
+    background-color: #fff;
+    font-family: 'Open Sans';
+    border: none;
+    color: #525252;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#pesan .waktu {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: 600;
+    line-height: 8px;
+    letter-spacing: 0em;
+    color: #525252;
+}
+
+#pesan .ucapan {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: #fff;
+    margin-top: -10px;
+}
+
+/* akhir pesan */

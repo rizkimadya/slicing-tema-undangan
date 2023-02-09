@@ -1,0 +1,864 @@
+@font-face 
+  {
+    font-family: 'deirma'; 
+    src: url('../deirma/Deirma.ttf');
+  }
+
+  @font-face 
+  {
+    font-family: 'Catalish Huntera'; 
+    src: url('../catalish_huntera/Catalish\ Huntera.ttf');
+  }
+  @font-face 
+  {
+    font-family: 'musque'; 
+    src: url('../musque/MUSQUE.OTF');
+  }
+
+
+.content-wrapper{
+    contain: layout;
+    font-family: 'Open Sans';
+}
+.content{
+    background-color: #fff;
+}
+
+
+.sticky-top{
+    background-image: url('../img/Assetcol-6.png');
+    background-size: cover;
+    width: 686px;
+    height: 100vh;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.329);
+}
+
+@media only screen and (max-width: 867px) {
+    .sticky-top{
+        display: none;
+    }
+}
+
+.sticky-top .bg_img{
+    padding-top: 110px;
+}
+.sticky-top .card{
+    background-color: transparent;
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    border: none;
+}
+.sticky-top .card .cover{
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    position: relative;
+    background-image: url("../img/bg_img.png");
+}
+.sticky-top .card img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: 36px;
+    position: absolute; 
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center;
+}
+.sticky-top .title{
+    margin-top: 50px;
+    font-family: 'Catalish Huntera';
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+}
+.sticky-top .subtitle{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+}
+.sticky-top .date{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+}
+
+
+/* background */
+#bg_resepsi{
+    background-image: url('../img/bgmempelai.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+#bg_our{
+    background-image: url('../img/assetkiri.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+#bg_bawah{
+    background-image: url('../img/bgbawah.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+
+/* hero */
+#hero{
+    text-align: center;
+    background-image: url('../img/Assetatas.png');
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero .keterangan{
+    margin-top: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 16%;
+}
+#hero .nama{
+    font-size: 40px;
+    font-family: 'deirma';
+    font-weight: 400;
+    line-height: 62.16px;
+    letter-spacing: 2%;
+}
+#hero .waktu{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 10%;
+}
+#hero .btn{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2%;
+    background-color:#E38E8B;
+    border: none;
+    padding: 6px 36px;
+    margin-top: 30px;
+    border-radius: 40px;
+    transition: all ease-in-out 0.4s;
+    color: #fff;
+}
+#hero .btn:hover{
+    background-color: #d37875;
+    transition: all ease-in-out 0.4s;
+}
+/* akhir hero */
+
+
+/* mempelai */
+#mempelai{
+    background-image: url('../img/bg-mepelai.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 920px;
+}
+@media only screen and (max-width: 500px) {
+    #mempelai{
+        background-image: url('../img/bg-mempelai2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 820px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    #mempelai{
+        background-image: url('../img/bg-mempelai3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 820px;
+    }
+    #mempelai .card .wanita{
+        margin-top: -20px;
+    }
+}
+#mempelai .card .cover{
+    background-image: url('../img/Union.png');
+    background-size: cover;
+    margin: auto;
+    width: 138px;
+}
+#mempelai .card .covers{
+    background-image: url('../img/Union\ \(1\).png');
+    background-size: cover;
+    margin: auto;
+    width: 138px;
+}
+#mempelai .card .wanita{
+    margin-top: 40px;
+}
+#mempelai .card{
+    margin-top: 110px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+#mempelai .card img{
+    width: 120px;
+    padding: 10px;
+}
+#mempelai .card .nama{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 33.09px;
+    letter-spacing: 2%;
+    font-family: 'musque';
+    margin-top: 3px;
+}
+#mempelai .card .title{
+    font-size: 18px;
+    line-height: 24.51px;
+    font-weight: 700;
+    margin: 0;
+}
+#mempelai .card .subtitle{
+    font-size: 14px;
+    line-height: 21.79px;
+    margin-top: 6px;
+    letter-spacing: 2%;
+}
+/* akhir mempelai */
+
+
+/* our */
+#our .title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.08px;
+    font-family: 'deirma';
+}
+#our .subtitle{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 16%;
+    line-height: 28.95px;
+    font-family: 'musque';
+}
+#our .card{
+    background-color: #E96262;
+    border: none;
+    border-radius: 47.66px;
+    width: 82px;
+    height: 172px;
+}
+#our .card .waktu{
+    background-color: #000;
+    border-radius: 50%;
+    padding: 6px;
+}
+#our .waktu h2{
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+    line-height: 32.68px;
+    margin: 0;
+}
+#our .waktu p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+#our .waktu{
+    background-color: #E96262;
+    box-shadow: 0px 15.6166px 20.8221px rgba(233, 98, 98, 0.22);;
+    padding: 10px;
+    width: 81px;
+    height: 83px;
+    border-radius: 50%;
+}
+/* akhir our */
+
+
+/* akad */
+#akad{
+    margin-top: 80px;
+    font-family: 'Playfair Display';
+}
+#akad .title{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 41.36px;
+    font-family: 'musque';
+}
+#akad img{
+    margin-bottom: 45px;
+}
+#akad .jam{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#akad .hari{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#akad .tempat{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+#akad .keterangan{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 0px 40px;
+    letter-spacing: 0em;
+}
+/* akhir akad */
+
+
+/* resepsi */
+#resepsi{
+    margin-top: 40px;
+    font-family: 'Playfair Display';
+}
+#resepsi .title{
+    font-size: 40px;
+    font-family: 'musque';
+    font-weight: 400;
+    line-height: 41.36px;
+}
+#resepsi img{
+    margin-bottom: 45px;
+}
+#resepsi .jam{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#resepsi .hari{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#resepsi .tempat{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+#resepsi .keterangan{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 0px 40px;
+    letter-spacing: 0em;
+}
+/* akhir resepsi */
+
+
+/* lokasi */
+#lokasi{
+    margin-top: 40px;
+    background-color: #E96262;
+    color: #fff;
+    padding: 30px 20px;
+}
+#lokasi .title{
+    font-family: 'Deirma';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#lokasi .subtitle{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    font-family: 'musque';
+}
+#lokasi .card{
+    border: 6px solid #D56262;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+#lokasi .card iframe{
+    padding: 4px;
+    border: none;
+    background-color: #D56262;
+}
+#lokasi .doa{
+    padding: 0px 20px;
+}
+/* akhir lokasi */
+
+
+/* moments */
+#moments{
+    margin-top: 40px;
+}
+#moments .title{
+    font-family: 'Deirma';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.16em;
+    text-align: center;
+}
+#moments .subtitle{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    font-family: 'musque';
+}
+#moments img{
+    width: 100%;
+    height: auto;
+}
+/* akhir moments */
+
+
+/* youtube */
+#youtube{
+    margin-top: 40px;
+    padding: 0px 36px;
+}
+#youtube .title{
+    font-family: 'Deirma';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.16em;
+    text-align: center;
+}
+#youtube .subtitle{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'musque';
+    line-height: 29px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* akhir youtube */
+
+
+/* rekening */
+#rekening{
+    margin-top: 40px;
+    padding: 0px 50px;
+}
+#rekening .btn{
+    background-color: #E96262;
+    padding: 10px 42px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 14px;
+    line-height: 28px;
+    border-radius: 4px;
+}
+#rekening .title{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    font-family: 'musque';
+}
+#rekening .subtitle{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+/* akhir rekening */
+
+
+/* pesan */
+#pesan{
+    margin-top: 40px;
+    padding: 0px 36px;
+}
+#pesan .title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    font-family: 'musque';
+}
+#pesan .subtitle{
+    font-family: 'Deirma';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.16em;
+    margin-bottom: 34px;
+    text-align: center;
+}
+#pesan .card{
+    background-color: #E96262;
+    padding: 16px 20px 45px 20px;
+    border: none;
+}
+#pesan .card hr{
+    color: #fff;
+}
+#pesan .card .peringatan{
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 270px;
+    font-size: 11px;
+    color: #FF0000;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+#pesan textarea{
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    height: 135px;
+    margin-top: 0;
+    padding: 9px;
+}
+#pesan .btn{
+    background-color: #fff;
+    color: #E96262;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 14px;
+    line-height: 19.07px;
+    margin-bottom: 20px;
+}
+#pesan .nama{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+#pesan .nama .btn{
+    background-color: #fff;
+    font-family: 'Open Sans';
+    border: none;
+    color: #D46262;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#pesan .waktu{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: 600;
+    line-height: 8px;
+    letter-spacing: 0em;
+    color: #E7A9A9;
+}
+#pesan .ucapan{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: #fff;
+    margin-top: -10px;
+}
+/* akhir pesan */
+
+/* footer */
+footer span{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+footer p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+footer .btn{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    background-color: #E96262;
+}
+/* akhir footer */
+
+
+
+
+
+/* modal hover*/
+#cover .contents{
+    padding: 60px;
+    z-index: 1;
+    margin-top: -80px;
+}
+#cover .btn{
+    background-color: #E38E8B;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all ease-in-out 0.4s;
+}
+#cover .btn:hover{
+    background-color: #d37875;
+    transition: all ease-in-out 0.4s;
+}
+#cover .bg_img{
+    margin-top: -280px;
+}
+#cover .card{
+    background-color: transparent;
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    border: none;
+}
+#cover .card .cover{
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    position: relative;
+    background-image: url("../img/bg_img.png");
+}
+#cover .card img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: 36px;
+    position: absolute; 
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center;
+}
+#cover .nama{
+    font-family: 'catalish_huntera';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 67.84px;
+    letter-spacing: 2%;
+    margin: 0;
+}
+#cover .tujuan{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    margin: 20px 0px 60px 0px;
+}
+#cover .keterangan{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+#cover .assetbawah{
+    margin-top: -224px;
+    
+}
+/* akhir modal hover*/
+
+
+
+/* protococol */
+.popup .title{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.popup .subtitle{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.popup .keterangan{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+}
+.popup .ketnama{
+    margin-top: 20px;
+    font-family: 'Deirma';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+.popup .ketnama p{
+    margin: 0;
+}
+.popup{
+    width: 680px;
+    box-shadow: 0px 0px 120px 0px #d37875;
+    background-color: #fff;
+    height: auto;
+    position: absolute;
+    border-radius: 8px;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.popup .card{
+    padding:20px 40px;
+}
+.popup button{
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #d37875;
+    border: none;
+}
+.popup img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    .popup .title{
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    .popup .subtitle{
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    .popup .keterangan{
+        font-family: 'Open Sans';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+    }
+    .popup .ketnama{
+        margin-top: 20px;
+        font-family: 'Deirma';
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+    }
+    .popup .ketnama p{
+        margin: 0;
+    }
+    .popup{
+        width: 400px;
+        background-color: #fff;
+        height: auto;
+        position: absolute;
+        border-radius: 8px;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .popup .card{
+        padding:15px 30px;
+    }
+    .popup button{
+        display: block;
+        margin: 0 0 20px auto;
+        background-color: transparent;
+        font-size: 28px;
+        color: #d37875;
+        border: none;
+    }
+    .popup img{
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .popup{
+        width: 360px;
+        background-color: #fff;
+        height: auto;
+        position: absolute;
+        border-radius: 8px;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .popup img{
+        width: 60px;
+    }
+
+}
+
+/* akhir protococol 388 500*/ 
